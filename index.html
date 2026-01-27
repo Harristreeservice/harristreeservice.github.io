@@ -3,50 +3,121 @@
 <head>
   <meta charset="UTF-8">
   <title>Harris Tree Service</title>
+
   <style>
     body {
-      font-family: Arial, sans-serif;
       margin: 0;
-      padding: 0;
-      background: #f4f4f4;
+      font-family: Arial, sans-serif;
+      background: #000;
     }
-    header {
-      background: #2f6b2f;
+
+    /* HERO SECTION */
+    .hero {
+      background-image: url("https://images.unsplash.com/photo-1600585154340-be6161a56a0c");
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
       color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
       padding: 20px;
+    }
+
+    .hero-overlay {
+      background: rgba(0,0,0,0.65);
+      padding: 30px;
+      border-radius: 10px;
+      max-width: 700px;
+    }
+
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 1.1em;
+      line-height: 1.5;
+    }
+
+    .section {
+      background: #f4f4f4;
+      padding: 30px 20px;
       text-align: center;
     }
-    section {
-      padding: 20px;
+
+    .services {
+      max-width: 800px;
+      margin: auto;
+      font-size: 1.1em;
     }
+
     form {
       max-width: 400px;
-      margin: auto;
+      margin: 30px auto 0;
     }
+
     input, textarea, button {
       width: 100%;
-      padding: 10px;
+      padding: 12px;
       margin-top: 10px;
+      font-size: 1em;
+    }
+
+    button {
+      background: #2f6b2f;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #245524;
     }
   </style>
 </head>
+
 <body>
 
-<header>
-  <h1>Harris Tree Service</h1>
-  <p>Licensed • Insured • Local</p>
-</header>
+  <!-- HERO -->
+  <div class="hero">
+    <div class="hero-overlay">
+      <h1>Harris Tree Service</h1>
+      <p>
+        Professional Tree Removal & Storm Cleanup<br>
+        Commercial & Residential • Licensed & Insured
+      </p>
+    </div>
+  </div>
 
-<section>
-  <h2>Get a Free Quote</h2>
-  <form onsubmit="event.preventDefault(); alert('Quote request sent!');">
-    <input type="text" placeholder="Name" required>
-    <input type="email" placeholder="Email" required>
-    <input type="tel" placeholder="Phone" required>
-    <textarea placeholder="Tell us about the job"></textarea>
-    <button type="submit">Get Quote</button>
-  </form>
-</section>
+  <!-- ABOUT / SERVICES -->
+  <div class="section">
+    <div class="services">
+      <h2>What We Do</h2>
+      <p>
+        Harris Tree Service provides safe, reliable tree services for both
+        <strong>residential and commercial</strong> properties.
+        We specialize in full tree removals, storm damage cleanup,
+        hazardous trees, and emergency services.
+      </p>
+      <p>
+        Whether it’s routine maintenance or a major storm cleanup,
+        we have the equipment and experience to get the job done right.
+      </p>
+    </div>
+
+    <!-- FORM -->
+    <form onsubmit="event.preventDefault(); alert('Quote request sent!');">
+      <h2>Get a Free Quote</h2>
+      <input type="text" placeholder="Name" required>
+      <input type="email" placeholder="Email" required>
+      <input type="tel" placeholder="Phone" required>
+      <textarea placeholder="Tell us about the job"></textarea>
+      <button type="submit">Request Quote</button>
+    </form>
+  </div>
 
 </body>
 </html>
