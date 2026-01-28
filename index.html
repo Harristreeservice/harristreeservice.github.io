@@ -8,44 +8,50 @@
 </head>
 <body>
 
-  <div class="hero">
-    <div class="overlay">
+<div class="hero">
+  <div class="overlay">
 
-      <h1>Harris Tree Service</h1>
-      <h2>Tree Service You Can Count On</h2>
+    <h1>Harris Tree Service</h1>
+    <h2>Tree Service You Can Count On</h2>
 
-      <a class="cta" href="tel:16629985391">(662) 998-5391 — Get a Free Estimate</a>
+    <a href="#estimate" class="cta">Get a Free Estimate</a>
 
-      <h3>Reliable Local Tree Service</h3>
-      <p>
-        Fast, dependable tree work when you need it most — even after storms.
-        We handle everything from hazardous tree removal to land clearing,
-        with honest pricing and free estimates.
-      </p>
+    <h3>Reliable Local Tree Service</h3>
+    <p>
+      Fast, dependable tree work when you need it most — even after storms.
+      We handle everything from hazardous tree removal to land clearing,
+      with honest pricing and free estimates.
+    </p>
 
-      <h3>Services</h3>
-      <ul>
-        <li>Tree Removal</li>
-        <li>Emergency Storm Cleanup</li>
-        <li>Tree Trimming & Pruning</li>
-        <li>Hazardous Tree Removal</li>
-        <li>Lot & Land Clearing</li>
-        <li>Firewood</li>
-        <li><strong>FREE Estimates</strong></li>
-        <li><strong>Insurance Estimates & Insurance Work Accepted</strong></li>
-      </ul>
+    <h3>Services</h3>
+    <ul>
+      <li>Tree Removal</li>
+      <li>Emergency Storm Cleanup</li>
+      <li>Tree Trimming & Pruning</li>
+      <li>Hazardous Tree Removal</li>
+      <li>Lot & Land Clearing</li>
+      <li>Firewood</li>
+      <li><strong>FREE Estimates</strong></li>
+      <li><strong>Insurance Estimates & Insurance Work Accepted</strong></li>
+    </ul>
 
-      <h3>About Us</h3>
-      <p>
-        We are a locally owned and operated tree service based in Yazoo City,
-        Mississippi. We specialize in safe, efficient tree removal.
-        Whether it’s emergency work after a storm or planned maintenance,
-        we show up on time, do the job right, and leave your property clean.
-        <strong>Tree work like YOU want it.</strong>
-      </p>
+    <h3 id="estimate">Request a Free Estimate</h3>
 
-    </div>
+    <!-- WORKING FORM -->
+    <form action="https://formspree.io/f/xxxxxxxx" method="POST" class="form">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="tel" name="phone" placeholder="Phone Number" required>
+      <input type="email" name="email" placeholder="Email Address">
+      <textarea name="message" placeholder="Brief description of the work you need" required></textarea>
+      <button type="submit">Send Request</button>
+    </form>
+
+    <p class="call">
+      Or call now: <a href="tel:16629985391">(662) 998-5391</a>
+    </p>
+
   </div>
+</div>
 
 </body>
 </html>
