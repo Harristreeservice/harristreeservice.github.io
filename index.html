@@ -3,55 +3,166 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Harris Tree Service</title>
-  <link rel="stylesheet" href="style.css">
+  <title>Harris Tree Service | Yazoo City, MS</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #ffffff;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #f4c400;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.2rem;
+    }
+
+    header p {
+      margin: 5px 0 0;
+      font-weight: bold;
+    }
+
+    .hero {
+      background: #222;
+      color: #fff;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .hero a {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 14px 24px;
+      background: #f4c400;
+      color: #000;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 4px;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    ul li {
+      padding: 8px 0;
+      font-weight: bold;
+    }
+
+    form {
+      max-width: 500px;
+      margin: auto;
+    }
+
+    label {
+      font-weight: bold;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 8px 0 15px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    button {
+      width: 100%;
+      padding: 14px;
+      background: #f4c400;
+      border: none;
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    footer {
+      background: #222;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+    }
+  </style>
 </head>
+
 <body>
 
+<header>
+  <h1>Harris Tree Service</h1>
+  <p>Yazoo City, Mississippi</p>
+  <p>📞 (662) 998-5391</p>
+</header>
+
 <div class="hero">
-  <div class="overlay">
-
-    <h1>Harris Tree Service</h1>
-    <h2>Tree Service You Can Count On</h2>
-
-    <a href="#estimate" class="cta">Get a Free Estimate</a>
-
-    <h3>Reliable Local Tree Service</h3>
-    <p>
-      Fast, dependable tree work when you need it most — even after storms.
-      We handle everything from hazardous tree removal to land clearing,
-      with honest pricing and free estimates.
-    </p>
-
-    <h3>Services</h3>
-    <ul>
-      <li>Tree Removal</li>
-      <li>Emergency Storm Cleanup</li>
-      <li>Tree Trimming & Pruning</li>
-      <li>Hazardous Tree Removal</li>
-      <li>Lot & Land Clearing</li>
-      <li>Firewood</li>
-      <li><strong>FREE Estimates</strong></li>
-      <li><strong>Insurance Estimates & Insurance Work Accepted</strong></li>
-    </ul>
-
-    <h3 id="estimate">Request a Free Estimate</h3>
-
-    <!-- WORKING FORM -->
-    <form action="https://formspree.io/f/xxxxxxxx" method="POST" class="form">
-      <input type="text" name="name" placeholder="Your Name" required>
-      <input type="tel" name="phone" placeholder="Phone Number" required>
-      <input type="email" name="email" placeholder="Email Address">
-      <textarea name="message" placeholder="Brief description of the work you need" required></textarea>
-      <button type="submit">Send Request</button>
-    </form>
-
-    <p class="call">
-      Or call now: <a href="tel:16629985391">(662) 998-5391</a>
-    </p>
-
-  </div>
+  <h2>Fast, Dependable Tree Work When You Need It Most</h2>
+  <p>
+    We handle hazardous tree removal, storm cleanup, land clearing,
+    and insurance-related tree work. Honest pricing. Free estimates.
+  </p>
+  <a href="#estimate">Get Free Estimate</a>
 </div>
 
-</body>
-</html>
+<section>
+  <h2>Our Services</h2>
+  <ul>
+    <li>Hazardous Tree Removal</li>
+    <li>Storm Damage Cleanup</li>
+    <li>Downed Tree Removal</li>
+    <li>Land & Lot Clearing</li>
+    <li>Insurance Estimates & Claims Assistance</li>
+  </ul>
+</section>
+
+<section id="estimate">
+  <h2>Request a Free Estimate</h2>
+  <p style="text-align:center;">
+    Fill out the form below and we’ll contact you as soon as possible.
+  </p>
+
+  <form action="https://formspree.io/f/mdagqery" method="POST">
+    <label>Name</label>
+    <input type="text" name="name" required>
+
+    <label>Phone Number</label>
+    <input type="tel" name="phone" required>
+
+    <label>Email</label>
+    <input type="email" name="email" required>
+
+    <label>Brief Description of Work Needed</label>
+    <textarea name="message" rows="4" required></textarea>
+
+    <button type="submit">Get Free Estimate</button>
+  </form>
+</section>
+
+<section>
+  <h2>Need Immediate Help?</h2>
+  <p style="text-align:center;">
+    Storm damage or dangerous trees? Call us now for fast service.
+  </p>
+  <p style="text-align:center; font-size: 20px; font-weight: bold;">
+    📞 (662) 998-5391
+  </p>
+</section
