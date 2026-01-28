@@ -11,7 +11,7 @@ body {
 
 .hero {
   min-height: 100vh;
-  background-image: url("Screenshot_20260115-071103.png");
+  background-image: url("./Screenshot_20260115-071103.png?v=2");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
