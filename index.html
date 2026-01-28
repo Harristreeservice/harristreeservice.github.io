@@ -26,21 +26,35 @@
     }
 
     header p {
-      margin: 5px 0 0;
+      margin: 6px 0 0;
       font-weight: bold;
     }
 
+    /* HERO WITH BACKGROUND IMAGE */
     .hero {
-      background: #222;
+      background:
+        linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
+        url("Screenshot_20260115-071103.png") center / cover no-repeat;
       color: #fff;
-      padding: 40px 20px;
+      padding: 90px 20px;
       text-align: center;
+    }
+
+    .hero h2 {
+      font-size: 2.1rem;
+      margin-bottom: 15px;
+    }
+
+    .hero p {
+      max-width: 800px;
+      margin: auto;
+      font-size: 1.1rem;
     }
 
     .hero a {
       display: inline-block;
-      margin-top: 20px;
-      padding: 14px 24px;
+      margin-top: 30px;
+      padding: 14px 28px;
       background: #f4c400;
       color: #000;
       text-decoration: none;
@@ -49,7 +63,7 @@
     }
 
     section {
-      padding: 40px 20px;
+      padding: 50px 20px;
       max-width: 900px;
       margin: auto;
     }
@@ -67,6 +81,7 @@
     ul li {
       padding: 8px 0;
       font-weight: bold;
+      text-align: center;
     }
 
     form {
@@ -117,17 +132,24 @@
 <div class="hero">
   <h2>Fast, Dependable Tree Work When You Need It Most</h2>
   <p>
-    We handle hazardous tree removal, storm cleanup, land clearing,
-    and insurance-related tree work. Honest pricing. Free estimates.
+    When storms hit or trees become a danger, you need someone you can trust.
+    Harris Tree Service provides professional, reliable tree removal and cleanup
+    throughout Yazoo City and surrounding areas. We show up, do the job right,
+    and treat your property with respect.
   </p>
-  <a href="#estimate">Get Free Estimate</a>
+  <a href="#estimate">Get Estimate Now</a>
 </div>
 
 <section>
-  <h2>Our Services</h2>
+  <h2>Professional Tree Services</h2>
+  <p style="text-align:center;">
+    We specialize in safe, efficient tree work for residential and commercial
+    properties. Whether it’s storm damage or a hazardous tree, we’re equipped
+    to handle the job.
+  </p>
   <ul>
-    <li>Hazardous Tree Removal</li>
-    <li>Storm Damage Cleanup</li>
+    <li>Hazardous & Emergency Tree Removal</li>
+    <li>Storm & Ice Damage Cleanup</li>
     <li>Downed Tree Removal</li>
     <li>Land & Lot Clearing</li>
     <li>Insurance Estimates & Claims Assistance</li>
@@ -137,7 +159,8 @@
 <section id="estimate">
   <h2>Request a Free Estimate</h2>
   <p style="text-align:center;">
-    Fill out the form below and we’ll contact you as soon as possible.
+    Fill out the form below and we’ll contact you as soon as possible to discuss
+    your project and schedule a free estimate.
   </p>
 
   <form action="https://formspree.io/f/mdagqery" method="POST">
@@ -160,9 +183,16 @@
 <section>
   <h2>Need Immediate Help?</h2>
   <p style="text-align:center;">
-    Storm damage or dangerous trees? Call us now for fast service.
+    Dangerous trees or storm damage can’t wait. Call now for fast, dependable service.
   </p>
-  <p style="text-align:center; font-size: 20px; font-weight: bold;">
+  <p style="text-align:center; font-size: 22px; font-weight: bold;">
     📞 (662) 998-5391
   </p>
-</section
+</section>
+
+<footer>
+  © Harris Tree Service — Yazoo City, MS
+</footer>
+
+</body>
+</html>
